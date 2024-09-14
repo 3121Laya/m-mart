@@ -1,0 +1,22 @@
+/* Footer.css */
+.footer {
+    height: 50px; /* Adjust height as needed */
+  }
+  
+  .footer-link {
+    margin-left: 15px;
+    color: rgb(46, 36, 36);
+    text-decoration: none;
+  }
+  .footer-container p{
+    color: rgb(201, 224, 245);
+  }
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+  }
+  

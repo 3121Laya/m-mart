@@ -1,0 +1,50 @@
+/* Auth.css */
+.container {
+  max-width: 1200px;
+}
+
+.signin-container {
+  padding: 50px 0;
+  background-color: #f7f9fc;
+}
+
+.signin-card {
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+.signin-image {
+  background: url('./sign.jpg') no-repeat center center;
+  background-size: cover;
+  border-radius: 15px 0 0 15px;
+  height: 100%;
+  min-height: 400px;
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signin-form h2 {
+  font-size: 2rem;
+}
+
+.signin-form .form-group label {
+  font-weight: bold;
+}
+
+.signin-form .form-control {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.signin-form button {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
+}

@@ -1,0 +1,44 @@
+/* Header styling */
+.navbar {
+  background-color: #094375; /* Custom light blue background */
+}
+
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.marquee-img {
+  height: 40px; /* Adjust as needed */
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #e9f1f7; /* Lighter hover color */
+}
+
+.btn-outline-light {
+  border-color: #fff;
+  color: #fff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #032441;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand h3 {
+    font-size: 1.25rem;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 0.875rem;
+  }
+}
